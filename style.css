@@ -179,5 +179,8 @@ line-height: 2;
         grid-template-columns: 40% 10% 25% 25%;
         margin-bottom: 50px;
     }
+    .sneak{
+        font-size: 1.5rem;
+    }
     
 }
