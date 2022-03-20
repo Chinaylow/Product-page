@@ -154,11 +154,11 @@ line-height: 2;
 .delete{
     color: grey;
 }
-@media screen and (max-width:415px){
+@media screen and (max-width:600px){
     .layout{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 35% 25% 35%;
+        /* grid-template-rows: 35% 25% 35%; */
         grid-template-areas: 
         "ain"
         "sect"
@@ -173,6 +173,11 @@ line-height: 2;
     .list ul{
         display: none;
         
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 40% 10% 25% 25%;
+        margin-bottom: 50px;
     }
     
 }
